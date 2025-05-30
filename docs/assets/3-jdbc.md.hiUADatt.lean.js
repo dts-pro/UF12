@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as i,a0 as t}from"./chunks/framework.8DCkquxJ.js";const m=JSON.parse('{"title":"3. JDBC","description":"","frontmatter":{},"headers":[],"relativePath":"3-jdbc.md","filePath":"3-jdbc.md"}'),n={name:"3-jdbc.md"};function r(d,e,l,o,c,p){return i(),s("div",null,e[0]||(e[0]=[t("",14)]))}const b=a(n,[["render",r]]);export{m as __pageData,b as default};
