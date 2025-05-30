@@ -14,8 +14,6 @@ l'eina phpMyAdmin per a treballar amb bases de dades. Ho pots descarregar des de
 
 Per a la seua instal·lació tan sols has de seguir els passos de l'instal·lador.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/xampp_web.jpg" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![XAMPP](/uf12/xampp_web.jpg)
 
 Veureu que les versions més actuals de XAMPP han substituït MySQL per MariaDB. No passa res, tots dos són compatibles i poden utilitzar-se indistintament.

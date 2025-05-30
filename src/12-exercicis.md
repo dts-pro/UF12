@@ -50,17 +50,13 @@ Seleccionar tots els productes de la base de dades i mostrar per consola el nom 
 
 Tractar la possible excepció *SQLException.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 75%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exercici1.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exercici](/uf12/exercici1.png)
 
 ## Exercici 2
 
 Modificar l’exercici 1 per a utilitzar el autoClose i per a mostrar per consola tots els atributs de cadascun.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exercici2.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exercici](/uf12/exercici2.png)
 
 ## Exercici 3
 
@@ -81,17 +77,13 @@ Modifica l'exercici 3 per a:
 2. Afegir al mètode main() una comprovació que si la taula "productos2" no existeix, la crea cridant als mètodes que s’han creat al punt anterior.
 3. Extrau del AutoClose la declaració del Statement i del ResultSet, ja que s’hauran de executar després de la comprovació anterior.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exercici4.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exercici](/uf12/exercici4.png)
 
 ## Exercici 5
 
 Modifica el exercici 4 per a mostrar cada registre filtrant la consulta per la seua “SECCION” i el seu “PAIS”. S’ha d’utilitzar la classe “PreparedStatement” concretament el mètode prepareStatement(query) per a preparar la consulta i després afegir els valors per a filtrar com a paràmetres.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exercici5.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exercici](/uf12/exercici5.png)
 
 ## Exercici 6
 
@@ -103,13 +95,9 @@ S’ha d’utilitzar la classe “PreparedStatement” per a preparar la consult
 
 Per últim, mostra el numero de files afectades.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exercici6_1.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
- 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exercici6_2.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exercici](/uf12/exercici6_1.png)
+
+![Exercici](/uf12/exercici6_2.png)
 
 ## Exercici 7
 
@@ -119,6 +107,4 @@ Afegeix també els mètodes getters i setters a la classe.
 
 Al mètode main(), després de la consulta de modificació anterior, afegeix una consulta que lliste tots els registres de la taula “productos2” de la base de dades i  els guarde en un ArrayList de productes. Per últim, utilitzant el Arraylist i les funcions pertinents de producte imprimeix els productes.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exercici7.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![Exercici](/uf12/exercici7.png)

@@ -7,6 +7,9 @@ Per a  inserir nous registres necessitarem utilitzar, almenys, aquests dos mèto
 
 El següent codi inserix un nou registre en la taula ‘clients’. Suposarem que conn és un objecte Connection previament creat:
 
+::: tabs
+== Java
+
 ```java
 // Creem un Statement scrollable i modificable
 Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
@@ -19,6 +22,8 @@ rs.updateString(2,"Killy Lopez");
 rs.updateString(3,"Wall Street 3674");
 rs.insertRow();
 ```
+
+:::
 
 Els camps el valor dels quals no s'haja establit amb updateXXX() tindran un valor NULL. Si en la base de dades aquest camp no està configurat per a admetre nuls es produirà una SQLException.
 

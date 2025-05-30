@@ -6,13 +6,18 @@ En aquest apartat s'ofereix una introducció als aspectes fonamentals de l'accé
 
 Per a poder utilitzar la llibreria JDBC en un projecte Java primer haurem d'afegir-la al projecte. Per a això hem de fer clic dret sobre la carpeta ‘Libraries’ del projecte i seleccionar ‘Add JAR/Folder’. En la finestra emergent haurem de seleccionar l'arxiu del driver prèviament descarregat mysql-connector-java-9.2.0.jar i clic en OK.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 90%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/add_library.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![JDBC](/uf12/add_library.png)
 
 ## 5.2 Carregar el Driver
 
+::: warning ATENCIÓ
+Aquesta part queda desfasada i, amb les últimes versions de Java, ja no és necessari carregar el Driver.
+:::
+
 En un projecte Java que realitze connexions a bases de dades és necessari, primer de tot, utilitzar Class.forName(...).newInstance() per a carregar dinàmicament el Driver que utilitzarem. Això només és necessari fer-ho una vegada en el nostre programa. Pot llançar excepcions pel que es necessari utilitzar un bloc try-catch.
+
+::: tabs
+== Java
 
 ```java
 try {
@@ -21,6 +26,8 @@ try {
   // manegem l'error
 }
 ```
+
+:::
 
 Cal tindre en compte que les classes i mètodes utilitzats per a connectar-se a una base de dades (explicats més endavant) funcionen amb tots els drivers disponibles per a Java (JDBC és només un, i ha molts més). Açò és possible ja que l'estàndard de Java només els defineix com a interfícies (**interface**) i cada llibreria driver els implementa (defineix les classes i el seu codi). Per això és necessari utilitzar Class.forName(…) per a indicar-li a Java quin driver utilitzarem.
 
@@ -37,9 +44,7 @@ Les quatre classes fonamentals que tota aplicació Java necessita per a connecta
 
 <div style="flex: 1; padding:10px;">
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/esquema_base_dades.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![JDBC](/uf12/esquema_base_dades.png)
 
 </div>
 </div>
@@ -116,6 +121,9 @@ Més endavant veurem com es realitza la modificació i inserció de dades. Tots 
 
 Vegem un exemple de com recórrer un ResultSet anomenat rs i mostrar-lo per pantalla:
 
+::: tabs
+== Java
+
 ```java
 while(rs.next()){
   int id = rs.getInt("id");
@@ -126,9 +134,14 @@ while(rs.next()){
 }
 ```
 
+:::
+
 ## 5.7 Exemple complet
 
 Vegem un exemple complet de connexió i accés a una base de dades utilitzant tots els elements esmentats en aquest apartat.
+
+::: tabs
+== Java
 
 ```java
 try {
@@ -159,3 +172,6 @@ try {
   e.printStackTrace();
 }
 ```
+
+:::
+

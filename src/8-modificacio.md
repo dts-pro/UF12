@@ -31,6 +31,9 @@ En resum, el procés per a realitzar la modificació d'una fila d'un ResultSet �
 
 El següent codi d'exemple mostra com modificar el camp ‘direcció’ de l'últim registre d'un ResultSet que conté el resultat d'un SELECT sobre la taula de clients. Suposarem que conn és un objecte Connection previament creat:
 
+::: tabs
+== Java
+
 ```java
 // Creem un Statement scrollable i modificable
 Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
@@ -42,3 +45,5 @@ rs.last();
 rs.updateString("direccio", "C/ Pepe Ciges, 3");
 rs.updateRow();
 ```
+
+:::

@@ -4,7 +4,10 @@ Per a eliminar un registre només cal desplaçar el cursor al registre desitjat 
 
 - **void deleteRow()**: Elimina el registre actual del ResultSet i també de la base de dades.
 
-El següent codi esborra el tercer registre de la taula ‘clients’:
+El següent codi esborra el tercer registre de la taula 'clients':
+
+::: tabs
+== Java
 
 ```java
 // Creem un Statement scrollable i modificable
@@ -16,3 +19,5 @@ ResultSet rs = stmt.executeQuery(sql);
 rs.absolute(3)
 rs.delete*Row();
 ```
+
+:::

@@ -92,36 +92,27 @@ Apareixerà una nova connexió.
 - S’ens obrirà la pantalla de Xampp i en el menú de capçalera farem clic en `phpMyAdmin`.
 - En la nova finestra ens situarem sobre la nostra BD i polsarem el botó `Importar`.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exemple2_1.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![SQL](/uf12/exemple2_1.png)
 
 - Cercarem la base de dades uf12_empresa.sql que prèviament ens haurem descarregat des de Aules al nostre ordinador.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exemple2_2.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![SQL](/uf12/exemple2_2.png)
 
 - Una vegada seleccionada, ens desplaçarem al final de la pantalla i polsarem el botó `Importar`.
 - Podrem veure que s’ha incorporat un conjunt de taules a la nostra BD, les quals tenen ja totes registres creats.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 40%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exemple2_3.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![SQL](/uf12/exemple2_3.png)
 
 - Tornem a NetBeans per a verificar que ja tenim la BD carregada. Si no apareixen les taules simplement haurem de fer clic dret sobre la BD i seleccionar `Refresh`.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 40%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exemple2_4.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![SQL](/uf12/exemple2_4.png)
+
 
 **MODEL DE LA BASE DE DADES uf12_empresa**
 
 La base de dades està formada per cinc taules, on cada taula emmagatzema informació referent a un tipus particular important. El diagrama de la base de dades es pot veure a la figura següent.
 
-<div style="border: 6px solid rgb(240, 102, 61); max-width: 100%; margin: 0 auto; text-align: center;">
-    <img src="/uf12/exemple2_5.png" style="max-width: 100%; height: auto; margin: 0;" alt="Esquema d'herència">
-</div>
+![SQL](/uf12/exemple2_5.png)
 
 La taula OFICINES emmagatzema dades sobre cadascuna de les cinc oficines de vendes incloent la ciutat on està localitzada l'oficina, la regió de vendes a què pertany, etc.
 
