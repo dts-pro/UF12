@@ -1,4 +1,4 @@
-# UF01. Fonaments de Programació1
+# UF12. Bases de dades
 
 ::: tip Informació del curs
 **Professors:** Guillermo Garrido Portes / David Tur Sanmateu
